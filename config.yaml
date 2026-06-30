@@ -1,0 +1,35 @@
+fields:
+  - full_name
+  - email
+  - phone
+  - skills
+  - education
+  - experience
+
+rename:
+  phone: mobile
+  full_name: name
+
+include_confidence: true
+include_provenance: true
+missing_policy: null   # options: null | omit | default value
+
+source_priority:
+  email:
+    - ats
+    - resume
+  phone:
+    - ats
+    - resume
+  full_name:
+    - ats
+    - resume
+  skills:
+    merge: union
+  education:
+    merge: union
+  experience:
+    merge: union
+
+matching:
+  fuzzy_threshold: 85

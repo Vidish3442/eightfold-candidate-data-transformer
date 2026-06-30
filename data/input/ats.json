@@ -1,0 +1,48 @@
+{
+  "candidate_id": "ATS-2026-001",
+  "full_name": "Vidish Kumar",
+  "email": "vidishkumar890@gmail.com",
+  "phone": "+91-9654403155",
+  "status": "Interview Scheduled",
+  "location": {
+    "city": "Greater Noida",
+    "state": "Uttar Pradesh",
+    "country": "India"
+  },
+  "headline": "AI/ML Engineer | LLM & Computer Vision Enthusiast",
+  "years_experience": 0.3,
+  "skills": [
+    "Python",
+    "SQL",
+    "TensorFlow",
+    "Machine Learning",
+    "Deep Learning",
+    "Streamlit",
+    "Flask",
+    "Git",
+    "GitHub",
+    "MySQL"
+  ],
+  "experience": [
+    {
+      "title": "AI/ML Virtual Intern",
+      "company": "Infosys",
+      "start_date": "2026-01",
+      "end_date": "2026-03",
+      "description": "Worked on LLM-powered stock screening platform using Python, SQL, Streamlit and OpenRouter APIs."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Noida Institute of Engineering and Technology",
+      "degree": "B.Tech Computer Science and Business Systems",
+      "start_date": "2023-08",
+      "end_date": "2027-06"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/Vidish3442",
+    "portfolio": "https://vidishk.netlify.app/",
+    "linkedin": "https://linkedin.com/in/vidish-kumar"
+  }
+}

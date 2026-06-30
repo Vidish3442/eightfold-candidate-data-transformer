@@ -1,0 +1,75 @@
+{
+  "emails": [
+    "vidishkumar890@gmail.com"
+  ],
+  "skills": [
+    "Algorithms",
+    "C++",
+    "Communication",
+    "Computer Vision",
+    "Data Structures",
+    "Deep Learning",
+    "Flask",
+    "Git",
+    "GitHub",
+    "LLMs",
+    "Leadership",
+    "Machine Learning",
+    "MySQL",
+    "NLP",
+    "NumPy",
+    "Object-Oriented Programming",
+    "Pandas",
+    "Problem Solving",
+    "Public Speaking",
+    "Python",
+    "REST APIs",
+    "SQL",
+    "Streamlit",
+    "TensorFlow"
+  ],
+  "education": [
+    {
+      "institution": "Noida Institute of Engineering and Technology",
+      "degree": "B.Tech Computer Science and Business Systems",
+      "field_of_study": "Computer Science and Business Systems",
+      "start_date": "2023-08",
+      "end_date": "2027-06"
+    },
+    {
+      "institution": "Class XII (CBSE)",
+      "degree": "Class XII",
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": "2023"
+    },
+    {
+      "institution": "Class X (CBSE)",
+      "degree": "Class X",
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": "2021"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI/ML Virtual Intern",
+      "company": "Infosys",
+      "start_date": "2026-01",
+      "end_date": "2026-03",
+      "description": "Developed an LLM-powered stock screener using py, SQL and Streamlit. Designed backend workflows for converting natural language investment queries into SQL operations. Integrated OpenRouter APIs for intelligent stock recommendations. Improved response quality using prompt engineering. Built modular backend components following software engineering principles.",
+      "bullets": [
+        "Developed an LLM-powered stock screener using py, SQL and Streamlit.",
+        "Designed backend workflows for converting natural language investment queries into SQL operations.",
+        "Integrated OpenRouter APIs for intelligent stock recommendations.",
+        "Improved response quality using prompt engineering.",
+        "Built modular backend components following software engineering principles."
+      ]
+    }
+  ],
+  "candidate_id": "ATS-2026-001",
+  "mobile": [
+    "+919654403155"
+  ],
+  "name": "Vidish Kumar"
+}

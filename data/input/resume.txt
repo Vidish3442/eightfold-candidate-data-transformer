@@ -1,0 +1,150 @@
+# NOTE:
+# This is a plain-text stand-in for resume.pdf.
+# resume_reader.py should detect .txt files and read them directly.
+
+Vidish Kumar
+
+Greater Noida, Uttar Pradesh
+vidishkumar890@gmail.com
+(+91) 96544 03155
+
+Portfolio
+https://vidish3442.github.io
+
+GitHub
+https://github.com/Vidish3442
+
+LinkedIn
+https://linkedin.com/in/vidish-kumar
+
+--------------------------------------------------
+
+SUMMARY
+
+Computer Science undergraduate specializing in AI/ML, NLP, Large Language Models, and Computer Vision.
+Experienced in building end-to-end AI applications using Python, TensorFlow, SQL, Streamlit, Flask and OpenRouter APIs.
+Strong foundation in Data Structures, Algorithms and Software Engineering.
+
+--------------------------------------------------
+
+EXPERIENCE
+
+AI/ML Virtual Intern — Infosys
+
+January 2026 – March 2026
+
+- Developed an LLM-powered stock screener using py, SQL and Streamlit.
+- Designed backend workflows for converting natural language investment queries into SQL operations.
+- Integrated OpenRouter APIs for intelligent stock recommendations.
+- Improved response quality using prompt engineering.
+- Built modular backend components following software engineering principles.
+
+--------------------------------------------------
+
+PROJECTS
+
+AI-Powered Stock Screener and Advisory Platform
+
+- Developed an NLP-based stock screener.
+- Used Python, Streamlit, SQL and OpenRouter APIs.
+- Converted natural language queries into SQL filters.
+- Implemented LLM-powered stock recommendations.
+- Optimized backend query execution.
+
+Diabetic Retinopathy Detection
+
+- Developed a deep learning model using TensorFlow and Keras.
+- Achieved approximately 76% accuracy.
+- Built complete Streamlit deployment.
+- Applied image preprocessing and augmentation.
+
+--------------------------------------------------
+
+EDUCATION
+
+Noida Institute of Engineering and Technology
+
+Bachelor of Technology
+
+Computer Science and Business Systems
+
+August 2023 – June 2027
+
+CGPA: 8.8 / 10
+
+Class XII (CBSE)
+
+2023
+
+86%
+
+Class X (CBSE)
+
+2021
+
+89%
+
+--------------------------------------------------
+
+SKILLS
+
+Programming
+
+py
+C++
+SQL
+
+AI/ML
+
+Machine Learning
+Deep Learning
+Computer Vision
+NLP
+LLMs
+TensorFlow
+
+Data
+
+Pandas
+NumPy
+MySQL
+
+Web
+
+Streamlit
+Flask
+REST APIs
+Git
+GitHub
+
+Core CS
+
+Data Structures
+Algorithms
+Object-Oriented Programming
+Problem Solving
+
+Other
+
+Leadership
+Communication
+Public Speaking
+
+--------------------------------------------------
+
+CERTIFICATIONS
+
+Design Thinking for Innovation — University of Virginia
+
+Databases and SQL for Data Science with Python — IBM
+
+Machine Learning for All — University of London
+
+--------------------------------------------------
+
+ACHIEVEMENTS
+
+- Solved 300+ DSA problems on LeetCode.
+- Built and deployed three AI-powered applications.
+- Rank Holder in Fireduck Blogathon.
+- Developed projects in NLP, LLMs and Computer Vision.
