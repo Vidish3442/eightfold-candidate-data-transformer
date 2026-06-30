@@ -84,7 +84,19 @@ class Projector:
         data: dict = candidate.model_dump(mode="json")
 
         # ------------------------------------------------------------------
-        # Step 1: Field selection
+        # Step 1: Confidence / provenance toggles (applied to full data first
+        # so field-selection cannot accidentally resurrect them via the fields
+        # list, and so that false correctly removes them even when the caller
+        # has listed them in fields).
+        # ------------------------------------------------------------------
+        if not self._config.get("include_confidence", True):
+            data.pop("overall_confidence", None)
+
+        if not self._config.get("include_provenance", True):
+            data.pop("provenance", None)
+
+        # ------------------------------------------------------------------
+        # Step 2: Field selection
         # ------------------------------------------------------------------
         selected_config_fields: list[str] = self._config.get(
             "fields", list(data.keys())
@@ -95,7 +107,8 @@ class Projector:
             _CONFIG_TO_CANONICAL.get(f, f) for f in selected_config_fields
         ]
 
-        # Build output with only selected fields.
+        # Build output with only selected fields (honours the toggle removals
+        # above because we operate on the already-pruned data dict).
         output: dict = {
             key: data[key] for key in selected_canonical if key in data
         }
@@ -103,15 +116,6 @@ class Projector:
         # Always include candidate_id as the primary key.
         if "candidate_id" not in output and "candidate_id" in data:
             output["candidate_id"] = data["candidate_id"]
-
-        # ------------------------------------------------------------------
-        # Step 2: Confidence / provenance toggles
-        # ------------------------------------------------------------------
-        if not self._config.get("include_confidence", True):
-            output.pop("overall_confidence", None)
-
-        if not self._config.get("include_provenance", True):
-            output.pop("provenance", None)
 
         # ------------------------------------------------------------------
         # Step 3: Missing-field policy

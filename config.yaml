@@ -5,7 +5,8 @@ fields:
   - skills
   - education
   - experience
-
+  - overall_confidence
+  - provenance        
 rename:
   phone: mobile
   full_name: name
